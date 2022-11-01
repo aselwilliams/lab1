@@ -271,8 +271,7 @@ console.log('New Total: ', newTotal)
 */
 
 // CODE HERE
-let newTotalPercentage;
-newTotalPercentage = 28 * 100 / 47;
+let newTotalPercentage = newTotal * 100 / total;
 
 let savings = 100 - newTotalPercentage;
 console.log(savings)
